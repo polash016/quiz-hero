@@ -31,6 +31,14 @@
         </div>
 
     </section>
-    
+    <section>
+        <h3 class="text-xl font-semibold mt-8 mb-6 pl-8">What does the quizTimer and chooseQuiz function do?</h3>
+        <div>
+            <p class="mb-4"><span class="text-xl">quizTimer</span> is a function with the parameter dismiss. In this function, if the parameter dismiss is true clearInterval function will be called to stop the timer function. When dismiss is false, it will execute a setInterval function named timer. In the function covtMin is set to calculate the minute by dividing the value of count with 60 and mod is set to calculate seconds by getting the remainder of count divided with 60. Then the function sets innerHTML of the id "count" with covtMin and mod.When the length of covtMin and mod is 1, 0 will be added before the covtMin and mod.Then there is a condition to style the innerHTML.</p> 
+        </div>
+        <div>
+            <p class="mb-4"><span class="text-xl">chooseQuiz</span> is function with two parameter index and givenAns. In the function isExist is variable that fulfill a condition. When isExist is true, a forLoop of answer execute. In the loop when the id of isExist and quiz is equal/same, we update the data of currently clicked ans with the givenAns. Else the code pushes the the clicked ans with givenAns. Then displayAnswer function is called to display the answers we got.</p>
+        </div>
+    </section>
 </body>
 </html>
