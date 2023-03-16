@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="w-[85%] mx-auto">
+    <section>
+        <div>
+            <h1 class="text-center text-3xl font-bold m-8">Question & Answer</h1>
+        </div>
+        <div>
+            <h3 class="text-xl font-semibold mt-8 mb-6 pl-8">Question 1: Difference Between Map, filter, forEach, find ?</h3>
+            <p class="mb-4"><span class="text-xl">ForEach</span> runs code on every element of an array by calling a function and return undefined.</p>
+            <p class="mb-4"><span class="text-xl">Map</span> runs code on every element of an array by calling a function and return result in a new array.</p>
+            <p class="mb-4"><span class="text-xl">Filter</span> runs code on every element of an array by calling a function to see if it meets any condition and return results in a new array that meets the given condition. It will return an empty array if the condition is not fulfilled or false.</p>
+            <p class="mb-4"><span class="text-xl">Find</span> runs code on every element of an array by calling a function to see if it meets any condition and return the first element of the array that meets the given condition. It will return an undefined if the condition is not fulfilled or false.</p>
+        </div>
+        <div>
+            <h3 class="text-xl font-semibold mt-8 mb-6 pl-8">Question 2: Difference Between localStorage, sessionStorage and cookies ?</h3>
+            <p class="mb-4"><span class="text-xl">Local storage</span> is a way to store data with no expiry date. It store data untill the data is deleted manually. It doesn't send data to the server side.It is only meant for client side.</p>
+            <p class="mb-4"><span class="text-xl">Session storage</span> is a way to store data only for the running session. When browser or tab is closed, data will get deleted. It is also meant for only client side.</p>
+            <p class="mb-4"><span class="text-xl">Cookies</span> are small piece of data.Cookies cannot be more than 4KB.Cookies store small piece of data and send the data back to the server.Cookies usaully store user preference data and meant for server side reading.</p>
+        </div>
+        <div>
+            <h3 class="text-xl font-semibold mt-8 mb-6 pl-8">Question 3: What is Event Loop?</h3>
+            <p class="mb-4"><span class="text-xl">Event Loop</span> create a stack of event and execute the code line by line. It is also called asyncronous way of executing code. When any function is executed, the function is popped from the stack.When any new function is added it is sent to the queue of the stack to execute. Event Loop maintains the correct sequence of the stack for execution. </p>
+        </div>
+
+    </section>
     
 </body>
 </html>
